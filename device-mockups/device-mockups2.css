@@ -71,6 +71,18 @@
 
 /* DEVICES */
 
+/* Apple Watch */
+.device-mockup[data-device="apple_watch"] {
+	padding-bottom: 170.203%;
+}
+
+.device-mockup[data-device="apple_watch"] > .device {
+	background-image: url("apple_watch/watch/steel.png");
+}
+
+.device-mockup[data-device="apple_watch"] > .device > .screen {
+	top: 25.043873%; bottom: 23.674735%; left: 14.97%; right: 17.369%;
+}
 
 /* iMac */
 .device-mockup[data-device="imac"] {
